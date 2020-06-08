@@ -1,0 +1,1097 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <title>Project Delta</title>
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat&display=swap">
+      <link rel="stylesheet" href="css/owl.carousel.min.css">
+      <link rel="stylesheet" href="css/owl.theme.default.min.css">
+      <link rel="stylesheet" href="css/Edits.css">
+    </head>
+    <body onload="loadingF()">
+      <!--START LOADING-->
+      <div id="loading-sec" class="loading-page">
+        <img src="images/loading/Infinity-1s-200px.svg" alt="laoding page">
+      </div>
+      <!--END LOADING-->
+      <!--START NAVBAR-->
+      <div class="nav-bar">
+        <div id="mainNav" class="container nav-bar-con">
+          <div class="logo">
+            <img src="images/navbar/resturent-logo.png" alt="resturent-logo">
+          </div>
+          <div id="navItems" class="nav-items ml-auto">
+            <ul class="nav-items-ul">
+              <li class="nav-items-li">
+                <a>
+                  home
+                </a>
+              </li>
+              <li class="nav-items-li">
+                <a>
+                  about
+                </a>
+              </li>
+              <li class="nav-items-li">
+                <a>
+                  menu
+                  <img src="images/navbar/iconfinder-icon(3).svg" alt="arrow-down" height="17"
+                  width="17">
+                </a> 
+                <ul class="sub-ul">
+                  <li class="sub-li">
+                    <a>
+                      menu one
+                    </a>
+                  </li>
+                  <li class="sub-li">
+                    <a>
+                      menu two with more text
+                    </a>
+                  </li>
+                  <li class="sub-li">
+                    <a>
+                      menu three with less
+                    </a>
+                  </li>
+                </ul>   
+              </li>
+              <li class="nav-items-li">
+                <a>
+                  pages
+                  <img src="images/navbar/iconfinder-icon(3).svg" alt="arrow-down" height="17"
+                  width="17">
+                </a>
+                <ul class="sub-ul">
+                  <li class="sub-li">
+                    <a>
+                      page 1
+                    </a>
+                  </li>
+                  <li class="sub-li">
+                    <a>
+                      page 3
+                    </a>
+                  </li>
+                  <li class="sub-li">
+                    <a>
+                      page 4
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-items-li">
+                <a>
+                  blog
+                </a>
+              </li>
+              <li class="nav-items-li">
+                <a>
+                  contact
+                </a>
+              </li>
+              <li id="search" class="nav-items-li last-three-li">
+                <a>
+                  <img src="images/navbar/iconfinder-icon.svg" alt="search">
+                </a>
+              </li>
+              <li id="sign" class="nav-items-li last-three-li">
+                <a>
+                  <img src="images/navbar/iconfinder-icon(1).svg" alt="sign-up">
+                </a>
+              </li>
+              <li id="more" class="nav-items-li last-three-li">
+                <a>
+                  <img src="images/navbar/iconfinder-icon(2).svg" alt="more">
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div id="navshowerbtn" class="nav-shower">
+            <img src="images/navbar/menu.svg" alt="more">
+          </div>
+        </div>
+      </div>
+      <!--END NAVBAR-->
+      <!--BEGIN THE SEARCH FORM-->
+      <div id="search-com" class="search-form" >
+        <div class="contianer-fluid search-form-con">
+          <div id="search-x" class="search-cancel">
+            <img src="images/navbar/iconfinder-icon(4).svg" alt="x-sign">
+          </div>
+          <div class="main-search">
+            <div class="main-search-content">
+              <p class="srch-fst-p">
+                What are you looking for?
+              </p>
+              <input type="text" id="search-word" placeholder="your search item goes here" class="srch-inpt">
+              <p class="srch-nd-p">
+                please press <span>enter</span> after you are finished
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--END THE SEARCH FORM-->
+      <!--START LOG-IN FORM-->
+      <div id="login-com" class="login-sec">
+        <div id="login-formD" class="login-form">
+          <div id="login-exit" class="login-cancel">
+            <img src="images/navbar/iconfinder-icon(4).svg" alt="x-sign">
+          </div>
+          <div class="login-choose">
+            <p id="log-n" class="loginp loginp-f">login</p>
+            <p id="reg" class="loginp">register</p>
+          </div>
+          <div id="logDiv" class="login-inputs">
+            <div class="userNdiv">
+              <input type="text" id="userName" class="userN-input global-form-input">
+              <span id="userNspan" class="login-input-Gspan">
+                user name
+              </span>
+            </div>
+            <div class="userPdiv">
+              <input type="password" id="userPass" class="userp-input global-form-input">
+              <span id="userPspan" class="login-input-Gspan">
+                password
+              </span>
+            </div>
+            <button class="login-submit" id="loginSubmit">submit</button>
+          </div>
+          <div id="regDiv" class="reg-inputs">
+            <div class="fullNdiv">
+              <input type="text" id="fullName" class="fullN-input global-form-input">
+              <span id="fullNameSpan" class="login-input-Gspan">
+                full name
+              </span>
+            </div>
+            <div class="NuserNdiv">
+              <input type="text" id="NuserName" class="NuserN-input global-form-input">
+              <span id="NuserNameSpan" class="login-input-Gspan">
+                user name
+              </span>
+            </div>
+            <div class="userEdiv">
+              <input type="email" id="userEmail" class="usere-input global-form-input">
+              <span id="userEmailSpan" class="login-input-Gspan">
+                e-mail
+              </span>
+            </div>
+            <div class="NuserPdiv">
+              <input type="password" id="NuserPass" class="Nuserp-input global-form-input">
+              <span id="NuserPassSpan" class="login-input-Gspan">
+                password
+              </span>
+            </div>
+            <button class="reg-submit" id="regSubmit">register</button>
+          </div>
+
+        </div>
+      </div>
+      <!--END LOG-IN FORM-->
+      <!--START SIDE MENU-->
+      <div id="SmenuSec" class="side-menuSec">
+        <div id="SmenuDiv" class="side-menuDiv">
+          <div class="side-search">
+            <button id="searchBtn" class="search-btn">
+              <img src="images/navbar/iconfinder-icon(5).svg" alt="search-sign">
+            </button>
+            <input type="text" placeholder="Your search item here">
+            <img id="sideX" class="side-menux" src="images/navbar/iconfinder-icon(4).svg" alt="X-sign" >
+          </div>
+          <div class="side-comment">
+            <p class="side-p">
+              My profile
+            </p>
+            <span class="side-span">
+              6 check profiles
+            </span>
+          </div>
+          <div class="side-comment">
+            <p class="side-p">
+              My profile
+            </p>
+            <span class="side-span">
+              6 check profiles
+            </span>
+          </div>
+          <div class="side-comment">
+            <p class="side-p">
+              Freebies
+            </p>
+            <span class="side-span">
+              68515 Boards
+            </span>
+          </div>
+          <div class="side-comment">
+            <p class="side-p">
+              Facebook Page
+            </p>
+            <span class="side-span">
+              865 shared documents
+            </span>
+          </div>
+          <div class="side-comment">
+            <p class="side-p">
+              Dribble
+            </p>
+            <span class="side-span">
+              45 Contacts
+            </span>
+          </div>
+          <div class="side-comment">
+            <p class="side-p">
+              Behance
+            </p>
+            <span class="side-span">
+              500 followers
+            </span>
+          </div>
+          <div class="side-comment">
+            <p class="side-p">
+              Deals
+            </p>
+            <span class="side-span">
+              what we offer in deals
+            </span>
+          </div>
+          <div class="about-side-comment">
+            <p class="side-p">
+              About Us
+            </p>
+            <span class="side-span">
+              what fg bgkld kldbm ldkr krmbd lrkgr m mfdf mrmgrt4 mrktl erkfjnc wejrnwc wlekrcw egelr elrt fdl ertlk ertre
+            </span>
+          </div>
+          <button id="purchaseBtn" class="side-button">
+            Purchase our theme
+          </button>
+          
+        </div>
+      </div>
+      <!--END SIDE MENU-->
+      <!--START CAROUSEL-->
+      <div class="open-carousel">
+        <div class="container-fluid">
+          <div class="row">
+            <div id="cr-slides" class="carousel slide carousel-one" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="d-block w-100" src="images/carousel/slider-01.jpg" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="images/carousel/slider-02.jpg" alt="Second slide">
+                </div>
+              </div>
+            </div>
+            <div id="carouselExampleControls" class="carousel slide cr-text" data-ride="carousel">
+              <div class="carousel-inner my-carousel-inner">
+                <div class="carousel-item active my-carousel-item">
+                  <p class="car-res">
+                    resturant 1
+                  </p>
+                  <div class="car-icn">
+                    <img src="images/carousel/iconfinder-icon.svg" alt="Restaurant icon">
+                  </div>
+                  <p class="car-txt">
+                    come hungry, leave happy 
+                  </p>
+                  <button class="car-btn">
+                    explore now
+                  </button>
+                </div>
+                <div class="carousel-item my-carousel-item">
+                  <p class="car-res">
+                    resturant 2
+                  </p>
+                  <div class="car-icn">
+                    <img src="images/carousel/iconfinder-icon.svg" alt="Restaurant icon">
+                  </div>
+                  <p class="car-txt">
+                    come hungry, leave happy 
+                  </p>
+                  <button class="car-btn">
+                    explore now
+                  </button>
+                </div>
+                <div class="carousel-item my-carousel-item">
+                  <p class="car-res">
+                    resturant 3
+                  </p>
+                  <div class="car-icn">
+                    <img src="images/carousel/iconfinder-icon.svg" alt="Restaurant icon">
+                  </div>
+                  <p class="car-txt">
+                    come hungry, leave happy 
+                  </p>
+                  <button class="car-btn">
+                    explore now
+                  </button>
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--END CAROUSEL-->
+      <!--START WELCOME SECTION-->
+      <section class="welcome-sec ">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="welcome-msg">
+                <h2 class="h1">
+                  Welcome to restro
+                </h2>
+                <p class="wlcome-txt">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tempor nulla a ex sodales egestas. Nulla eget suscipit nibh, quis rutrum dui. Suspendisse luctus ullamcorper tristique. Nulla vel aliquet lacus. Mauris commodo leo at leo dictum pulvinar. Nulla facilisi. 
+                </p>
+                <span class="mang">
+                  - Richard Haelon -
+                </span>
+                <img src="images/welcome/owner-sign.png" class="sign" alt="owner's singnature">
+              </div>
+              <div class="cats">
+                <h3>
+                  dishes of our cuisine
+                </h3>
+                <ol class="cusi-ol">
+                  <li id="appet" class="cusi-li" wel-cat="a-welcome">
+                    <div class="cusi-sdiv">
+                      <img src="images/welcome/appetizers-b.svg" alt="appetizers">
+                    </div>
+                    <span>appetizers</span>
+                  </li>
+                  <li id="dessert" class="cusi-li" wel-cat="d-welcome">
+                    <div class="cusi-sdiv">                      
+                      <img src="images/welcome/dessert-b.svg" alt="dessert">
+                    </div>
+                    <span>dessert</span>
+                  </li>
+                  <li id="main-dish" class="cusi-li" wel-cat="ma-welcome">
+                    <div class="cusi-sdiv">
+                      <img src="images/welcome/main-dish-b.svg" alt="main-dish">
+                    </div>
+                    <span>main dish</span>
+                  </li>
+                  <li id="salads" class="cusi-li" wel-cat="s-welcome">
+                    <div class="cusi-sdiv">
+                      <img src="images/welcome/salads-b.svg" alt="salads">
+                    </div>
+                    <span>salads</span>
+                  </li>
+                  <li id="drinks" class="cusi-li" wel-cat="dr-welcome">
+                    <div class="cusi-sdiv">
+                      <img src="images/welcome/drinks-b.svg" alt="drinks" style="position:relative; left:4px; width:45px;">
+                    </div>
+                    <span>drinks</span>
+                  </li>
+                </ol>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div id="m-welcome" class="welcome-out" style="display: block;">
+                <span style="position: absolute;"> WELCOME </span>
+                <img src="images/welcome/chef-image.png" alt="chef-image">
+              </div>
+              <div id="d-welcome" class="welcome-out">
+                <span style="position: absolute;"> DESSERT </span>
+                <img src="images/welcome/chef-image.png" alt="chef-image">
+              </div>
+              <div id="a-welcome" class="welcome-out">
+                <span style="position: absolute;"> APPETIZERS </span>
+                <img src="images/welcome/chef-image.png" alt="chef-image">
+              </div>
+              <div id="s-welcome" class="welcome-out">
+                <span style="position: absolute;"> SALADS </span>
+                <img src="images/welcome/chef-image.png" alt="chef-image">
+              </div>
+              <div id="dr-welcome" class="welcome-out">
+                <span style="position: absolute;"> DRINKS </span>
+                <img src="images/welcome/chef-image.png" alt="chef-image">
+              </div>
+              <div id="ma-welcome" class="welcome-out">
+                <span style="position: absolute;"> MAIN DISHES </span>
+                <img src="images/welcome/chef-image.png" alt="chef-image">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--END WELCOME SECTION-->
+      <!--START BEST-SELLER SECTION-->      
+      <section class="BEST-SELLER">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 text-center">
+              <h3 class="bst-h3">
+                best seller
+              </h3>
+              <img src="images/carousel/iconfinder-icon.svg" class="bst-img" alt="restaurant mark">
+              <ul class="bst-ul">
+                <li class="bst-li">
+                  appetizers
+                </li>
+                <li class="bst-li">
+                  dessert
+                </li>
+                <li class="bst-li">
+                  main dishes
+                </li>
+                <li class="bst-li">
+                  salads
+                </li>
+                <li class="bst-li">
+                  drinks
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="row ">
+            <div class="owl-carousel owl-1 owl-theme">
+              <div class="item">
+                <div class="card-my" style="width: 100%;">
+                  <img class="card-img-top" src="images/bst-seller/menu-3.png" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Fool</h5>
+                    <p class="card-text">bla bla bla</p>
+                    <a href="#" class="order-btn">order</a>
+                    <span class="price">3.9</span>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="card-my" style="width: 100%;">
+                  <img class="card-img-top" src="images/bst-seller/menu-1.png" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Rooz</h5>
+                    <p class="card-text">bla bla bla</p>
+                    <a href="#" class="order-btn">order</a>
+                    <span class="price">3.9</span>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="card-my" style="width: 100%;">
+                  <img class="card-img-top" src="images/bst-seller/menu-2.png" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Pizza</h5>
+                    <p class="card-text">bla bla bla</p>
+                    <a href="#" class="order-btn">order</a>
+                    <span class="price">3.9</span>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="card-my" style="width: 100%;">
+                  <img class="card-img-top" src="images/bst-seller/menu-3.png" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Tameaa</h5>
+                    <p class="card-text">bla bla bla</p>
+                    <a href="#" class="order-btn">order</a>
+                    <span class="price">3.9</span>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="card-my" style="width: 100%;">
+                  <img class="card-img-top" src="images/bst-seller/menu-4.png" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Chicken</h5>
+                    <p class="card-text">bla bla bla</p>
+                    <a href="#" class="order-btn">order</a>
+                    <span class="price">3.9</span>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="card-my" style="width: 100%;">
+                  <img class="card-img-top" src="images/bst-seller/menu-2.png" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Koshary</h5>
+                    <p class="card-text">bla bla bla</p>
+                    <a href="#" class="order-btn">order</a>
+                    <span class="price">3.9</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <p class="slide-inf">slide to show more</p>
+            <button id="shAll" class="show-all" >
+              show all
+            </button>
+          </div>
+        </div>
+      </section>
+      <!--END BEST-SELLER SECTION-->
+      <!--START OUR-MENU SECTION-->
+      <section class="our-menu">
+        <div class="container">
+          <h3 class="om-h3">
+            our menu
+          </h3>
+          <div class="om-imgd">
+            <img class="om-img" src="images/carousel/iconfinder-icon.svg" alt="res logo">
+          </div>
+          <ul class="om-ul">
+            <li id="om-appet" class="om-li" my-data="mi-appet">
+              appetizers
+            </li>
+            <li id="om-dessert" class="om-li" my-data="mi-dessert">
+              dessert
+            </li>
+            <li id="om-main-dish" class="om-li" my-data="mi-main-dish">
+              main dishes
+            </li>
+            <li id="om-salads" class="om-li" my-data="mi-salads">
+              salads
+            </li>
+            <li id="om-drinks" class="om-li" my-data="mi-drinks">
+              drinks
+            </li>
+          </ul>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="menu-item mi-appet mi-salads">
+                <div class="menu-thumbnail">
+                  <img src="images/bst-seller/menu-1.png" alt="menu-1">
+                </div>
+                <div class="menu-txt">
+                  <span class="menu-name">
+                    <a href="#">
+                      Koshary
+                    </a>
+                  </span>
+                  <span class="menu-price">
+                    3.39
+                  </span>
+                  <p class="menu-type">
+                    vegetarian
+                  </p>
+                  <button id="menu-btn1" class="menu-btn">
+                    order
+                  </button>
+                </div>
+              </div>
+              <div class="menu-item mi-dessert mi-drinks">
+                <div class="menu-thumbnail">
+                  <img src="images/bst-seller/menu-2.png" alt="menu-1">
+                </div>
+                <div class="menu-txt">
+                  <span class="menu-name">
+                    <a href="#">
+                      Keweyhy
+                    </a>
+                  </span>
+                  <span class="menu-price">
+                    3.39
+                  </span>
+                  <p class="menu-type">
+                    vegetarian
+                  </p>
+                  <button id="menu-btn2" class="menu-btn">
+                    order
+                  </button>
+                </div>
+              </div>
+              <div class="menu-item mi-appet mi-main-dish">
+                <div class="menu-thumbnail">
+                  <img src="images/bst-seller/menu-3.png" alt="menu-1">
+                </div>
+                <div class="menu-txt">
+                  <span class="menu-name">
+                    <a href="#">
+                      fool bel shata
+                    </a>
+                  </span>
+                  <span class="menu-price">
+                    3.39
+                  </span>
+                  <p class="menu-type">
+                    vegetarian
+                  </p>
+                  <button id="menu-btn3" class="menu-btn">
+                    order
+                  </button>
+                </div>
+              </div>
+              <div class="menu-item mi-dessert mi-salads">
+                <div class="menu-thumbnail">
+                  <img src="images/bst-seller/menu-2.png" alt="menu-1">
+                </div>
+                <div class="menu-txt">
+                  <span class="menu-name">
+                    <a href="#">
+                      Koshary
+                    </a>
+                  </span>
+                  <span class="menu-price">
+                    3.39
+                  </span>
+                  <p class="menu-type">
+                    vegetarian
+                  </p>
+                  <button id="menu-btn4" class="menu-btn">
+                    order
+                  </button>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-md-6">
+              <div class="menu-item mi-appet mi-dessert mi-main-dish">
+                <div class="menu-thumbnail">
+                  <img src="images/bst-seller/menu-2.png" alt="menu-1">
+                </div>
+                <div class="menu-txt">
+                  <span class="menu-name">
+                    <a href="#">
+                      Koshary
+                    </a>
+                  </span>
+                  <span class="menu-price">
+                    3.39
+                  </span>
+                  <p class="menu-type">
+                    vegetarian
+                  </p>
+                  <button id="menu-btn5" class="menu-btn">
+                    order
+                  </button>
+                </div>
+              </div>
+              <div class="menu-item mi-dessert">
+                <div class="menu-thumbnail">
+                  <img src="images/bst-seller/menu-1.png" alt="menu-1">
+                </div>
+                <div class="menu-txt">
+                  <span class="menu-name">
+                    <a href="#">
+                      Koshary
+                    </a>
+                  </span>
+                  <span class="menu-price">
+                    3.39
+                  </span>
+                  <p class="menu-type">
+                    vegetarian
+                  </p>
+                  <button id="menu-btn6" class="menu-btn">
+                    order
+                  </button>
+                </div>
+              </div>
+              <div class="menu-item mi-salads">
+                <div class="menu-thumbnail">
+                  <img src="images/bst-seller/menu-4.png" alt="menu-1">
+                </div>
+                <div class="menu-txt">
+                  <span class="menu-name">
+                    <a href="#">
+                      fool w taamea
+                    </a>
+                  </span>
+                  <span class="menu-price">
+                    3.39
+                  </span>
+                  <p class="menu-type">
+                    vegetarian
+                  </p>
+                  <button id="menu-btn7" class="menu-btn">
+                    order
+                  </button>
+                </div>
+              </div>
+              <div class="menu-item mi-drinks">
+                <div class="menu-thumbnail">
+                  <img src="images/bst-seller/menu-1.png" alt="menu-1">
+                </div>
+                <div class="menu-txt">
+                  <span class="menu-name">
+                    <a href="#">
+                      Koshary
+                    </a>
+                  </span>
+                  <span class="menu-price">
+                    3.39
+                  </span>
+                  <p class="menu-type">
+                    vegetarian
+                  </p>
+                  <button id="menu-btn8" class="menu-btn">
+                    order
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button onclick="showAllMenu()" class="show-all" >
+            show all
+          </button>
+        </div>
+      </section>
+      <!--END OUR-MENU SECTION-->
+      <!--START RESERVATION SECTION-->
+      <section class="rese-sec">
+        <div class="container">
+          <h6 class="rese-h6">
+            always happy to see you
+          </h6>
+          <h2 class="resr-h2">
+            make a reservation
+          </h2>
+          <img class="rese-img" src="images/carousel/iconfinder-icon.svg" alt="resturent-logo">
+          <div class="row h-70" >
+            <div class="col-lg-3 col-md-6 p-relative">
+              <input id="reservation-name" class="rese-name" type="text" placeholder="person">
+              <img class="res-input-img" src="images/reservation/person.svg" alt="person">
+            </div>
+            <div class="col-lg-3 col-md-6 p-relative">
+              <input id="reservation-date" class="rese-date" type="text" placeholder="Date" onfocus="(this.type='date')" onblur="(this.type='text')">
+              <img class="res-input-img" src="images/reservation/calendar.svg" alt="calendar">
+            </div>
+            <div class="col-lg-3 col-md-6 p-relative">
+              <input id="reservation-time" class="rese-time" type="text" placeholder="time" onfocus="(this.type='time')" onblur="(this.type='text')">
+              <img class="res-input-img" src="images/reservation/clock.svg" alt="clock">
+            </div>
+            <div class="col-lg-3 col-md-6 p-relative">
+              <input id="reservation-number" class="rese-number" type="number" placeholder="phone number">
+              <img class="res-input-img" src="images/reservation/phone.svg" alt="phone">
+            </div>
+          </div>
+          <p class="give-call">
+            Or give us a call now to reserve your table to experience your best dining experience ever.
+          </p>
+          <h2 class="hot-line">
+            Hotline: 012 345 6789
+          </h2>
+          <button id="reservation-submit" class="rese-btn">
+            submit order
+          </button>
+        </div>
+      </section>
+      <!--END RESERVATION SECTION-->
+      <!--START BLOG SECTION-->
+      <section class="blog-sec">
+        <h2 class="blog-h2">
+          from the blog
+        </h2> 
+        <div class="om-imgd">
+          <img class="om-img" src="images/carousel/iconfinder-icon.svg" alt="res logo">
+        </div>
+        <div class="container">
+          <div class="owl-carousel owl-2 owl-theme">
+            <div class="item">
+              <div class="blog-card">
+                <div class="blog-img">
+                  <img src="images/Blog/blog-1.jpg" alt="blog-img">
+                </div>
+                <div class="blog-txt">
+                  <p class="blog-d">
+                    April, 23rd, 2020
+                  </p>
+                  <span class="blog-title">
+                    <a href="#">blog number</a>
+                  </span>
+                  <p class="blog-ab">
+                    Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="blog-card">
+                <div class="blog-img">
+                  <a href="#">
+                    <img src="images/Blog/blog-3.jpg" alt="blog-img">
+                  </a>
+                </div>
+                <div class="blog-txt">
+                  <p class="blog-d">
+                    April, 23rd, 2020
+                  </p>
+                  <span class="blog-title">
+                    <a href="#">blog number</a>
+                  </span>
+                  <p class="blog-ab">
+                    Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="blog-card">
+                <div class="blog-img">
+                  <a href="#">
+                    <img src="images/Blog/blog-2.jpg" alt="blog-img">
+                  </a>
+                </div>
+                <div class="blog-txt">
+                  <p class="blog-d">
+                    April, 23rd, 2020
+                  </p>
+                  <span class="blog-title">
+                    <a href="#">blog number</a>
+                  </span>
+                  <p class="blog-ab">
+                    Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="blog-card">
+                <div class="blog-img">
+                  <a href="#">
+                    <img src="images/Blog/blog-3.jpg" alt="blog-img">
+                  </a>
+                </div>
+                <div class="blog-txt">
+                  <p class="blog-d">
+                    April, 23rd, 2020
+                  </p>
+                  <span class="blog-title">
+                    <a href="#">blog number</a>
+                  </span>
+                  <p class="blog-ab">
+                    Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.
+                  </p>
+                </div>
+              </div>
+            </div>
+        </div>
+          <p class="slide-inf">slide to show more</p>
+        </div>      
+      </section>
+      <!--END BLOG SECTION-->
+      <!--START EMAIL SECTION-->
+      <section class="email-sec">
+        <div class="container">
+          <p class="email-p">
+            Want to know more about our events?
+          </p>
+          <h2 class="email-h2">
+            get weekly e-mail
+          </h2>
+          <input type="email" placeholder="Enter your e-mail" class="email-input">
+          <button id="Email-sub-btn" class="email-btn">subscribe</button>
+        </div>
+      </section>
+      <!--END EMAIL SECTION-->
+      <!--START LAST SECTION-->
+      <section class="last-sec">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="last-logoD">
+                <img src="images/navbar/resturent-logo.png" class="last-logo" alt="restaurant logo">
+              </div>
+              <p class="last-p">
+                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+              </p>
+              <ul class="socials">
+                <li>
+                  <a href="#">
+                    <img src="images/Last/iconfinder_facebook_circle_color_107175.svg" alt="Facebook">
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="images/Last/iconfinder_Instagram_191275.svg" alt="instagram">
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="images/Last/iconfinder_rss_circle_color_107177.svg" alt="RSS">
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="images/Last/iconfinder_twitter_circle_color_107170.svg" alt="twitter">
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-2 col-sm-6">
+              <h3 class="helpfull">
+                helpfull links
+              </h3>
+              <ul class="helpfull-ul">
+                <li>
+                  <a href="#">
+                    about us
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    FAQ 1
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    career
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    latset news
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    phones
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-2 col-sm-6">
+              <h3 class="support">
+                support
+              </h3>
+              <ul class="helpfull-ul">
+                <li>
+                  <a href="#">
+                    about me
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    contact us
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    our team
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    packages
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    testimonials
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-4">
+              <h3 class="contact-us">
+                contact us
+              </h3>
+              <ul class="helpfull-ul">
+                <li>
+                  <img src="images/Last/iconfinder_location_115718.svg" alt="">
+                  Egypt, beni-suef, beba, abd allah zayed st.
+                </li>
+                <li> 
+                  <img src="images/reservation/phone.svg" alt="phone">
+                  +201016016446
+                </li>
+                <li>
+                  <img src="images/Last/iconfinder_dog_1167979.svg" alt="E-mail">
+                  basemnabil0@gmail.com
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--END LAST SECTION-->
+      <!--START FOOTER SECTION-->
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <p class="copyright-text">
+                Copyright 2020 <a href="#">Restro</a> All rights Reserved.
+              </p>
+            </div>
+            <div class="col-md-6">
+              <ul class="footer-ul float-right">
+                <li><a href="#">Map</a></li>
+                <li><a href="#">TortoizThemes</a></li>
+                <li><a href="#">Terms and Condition</a></li>
+            </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!--END FOOTER SECTION-->
+
+
+      <script src="js/JQuery3.4.1.min.js" ></script>
+      <script src="js/owl.carousel.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/jquery.nicescroll.min.js"></script>
+      <script src="js/Myjs.js" ></script>
+      <script>
+        $(function() {  
+            $("html").niceScroll({
+              cursorcolor: "#94b800",
+              zindex:9999999,
+              cursorwidth: "10px", 
+              cursorborder: "0px solid #fff",
+              scrollspeed: 90, 
+              mousescrollstep: 40,
+              emulatetouch: true, // enable cursor-drag scrolling like touch devices in desktop computer
+
+            });
+        });
+        $('.carousel-one').carousel({
+          interval: 50000
+        })
+        $('.carousel').carousel({
+          interval: 10000
+        })
+        $(document).ready(function(){
+          $('.owl-1').owlCarousel({
+            loop:true,
+            margin:20,
+            nav:false,
+            dots:false,
+            responsive:{
+                0:{
+                    items:2
+                },
+                600:{
+                    items:2
+                },
+                1000:{
+                    items:4
+                }
+            }
+        })
+        
+          $('.owl-2').owlCarousel({
+              loop:true,
+              margin:30,
+              nav:false,
+              dots:false,
+              responsive:{
+                  0:{
+                      items:1
+                  },
+                  700:{
+                      items:1
+                  },
+                  1000:{
+                      items:3
+                  }
+              }
+          })
+        });
+      </script>
+    </body>
+</html>
