@@ -90,5 +90,4 @@ document.querySelectorAll(".om-li").forEach(function (menuCat){
 
 function loadingF(){
     document.getElementById('loading-sec').style.display = 'none'
-    document.getElementsByTagName('body')[0].style.overflowY = 'scroll'
 }
