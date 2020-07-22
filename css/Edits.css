@@ -553,6 +553,10 @@ a:hover {
     min-height: 100vh
 }
 
+.carousel{
+    min-width: 100%
+}
+
 .cr-text {
     position: absolute;
     margin: 0 auto;
@@ -765,6 +769,8 @@ a:hover {
 .BEST-SELLER {
     background: url(../images/bst-seller/popular-bg.png), rgba(0, 0, 0, .7);
     background-blend-mode: darken;
+    background-size: cover;
+    background-position: center;
     padding-bottom: 35px;
     z-index: 39;
     position: relative
@@ -1038,7 +1044,9 @@ a:hover {
     padding: 100px 0;
     color: #fff;
     text-align: center;
-    min-height: 100vh
+    min-height: 100vh;
+    display: flex;
+    align-items: center
 }
 
 .rese-h6 {
